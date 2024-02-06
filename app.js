@@ -21,6 +21,9 @@ btns.forEach(function(btn) {
         if(count > 0) {
             value.style.color = 'green'
         }
+        if(count < 0) {
+            value.style.color = 'black'
+        }
         value.textContent = count;
     })
 })
